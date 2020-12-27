@@ -1,5 +1,5 @@
 variable "url"{
-    default = "api.anz.prismacloud.io/"
+    default = "api.anz.prismacloud.io"
 }
 
 variable "protocol"{
@@ -7,7 +7,7 @@ variable "protocol"{
 }
 
 variable "skip_ssl_cert_verification" {
-    default = "false"
+    default = false
 }
 
 variable "username"{
