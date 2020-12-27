@@ -1,0 +1,6 @@
+{
+  "registry.terraform.io/terraform-providers/prismacloud": {
+    "hash": "h1:EjbK7WO1n4fwaw5jd4V+lE6HSCGWvwiDjVDVIdW8/rw=",
+    "version": "1.0.2"
+  }
+}
