@@ -1,12 +1,12 @@
 resource "prismacloud_policy" "A0dsdsd" {
   policy_type = "audit_event"
   cloud_type  = "aws"
-  name        = "IAM - Root 계정 사용 유무"
+  name        = "IAsd무"
   severity    = "high"
   labels      = ["AWS-IAM-01"]
   description = "관리자 or 특수권한 사용자 이외에 Root 계정 사용을 제한하고 있습니까?"
   rule {
-    name     = "IAM - Root 계정 사용 유무"
+    name     = "sds용 유무"
     criteria = "event where cloud.type = 'aws' AND ip EXISTS AND user = 'root'"
     parameters = {
       savedSearch = "false"
