@@ -1,4 +1,4 @@
-resource "prismacloud_policy" "A01_IAM_S01_P01" {
+resource "prismacloud_policy" "A0dsdsd" {
   policy_type = "audit_event"
   cloud_type  = "aws"
   name        = "IAM - Root 계정 사용 유무"
