@@ -1,5 +1,5 @@
 variable "url"{
-    default = "api.anz.prismacloud.io"
+    default = "https://api.anz.prismacloud.io/"
 }
 
 variable "protocol"{
