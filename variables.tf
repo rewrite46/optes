@@ -10,6 +10,6 @@ variable "skip_ssl_cert_verification" {
     default = "false"
 }
 
-variable "username"{}
+variable "prismacloud_username"{}
 
-variable "password" {}
+variable "prismacloud_password" {}
