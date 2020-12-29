@@ -163,7 +163,7 @@ resource "prismacloud_compliance_standard_requirement" "A27_Athena"{
 resource "prismacloud_compliance_standard_requirement" "A28_CC"{
   cs_id          = prismacloud_compliance_standard.Bespin_AWS_Compliance.cs_id
   name           = "CodeCommit"
-  requirement_id = "28"
+  requirement_id = "A28_CC"
   description    = "CodeCommit는 클라우드에서 자산(예: 문서, 소스 코드, 바이너리 파일)을 비공개로 저장하여 관리할 수 있도록 Amazon Web Services에서 호스팅되는 버전 관리 서비스"
 }
 resource "prismacloud_compliance_standard_requirement" "A29_DS"{
